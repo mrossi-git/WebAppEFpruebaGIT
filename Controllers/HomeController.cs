@@ -23,6 +23,7 @@ namespace WebAppEF.Controllers
 
         public IActionResult Privacy()
         {
+            ViewBag.error = "Probando GIT";
             return View();
         }
 
