@@ -1,0 +1,14 @@
+﻿@model List<Autor>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Autores</h1>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@item.Nombre (@item.Id)</li>
+        }
+    </ul>
+</div>
