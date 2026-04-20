@@ -16,6 +16,7 @@ namespace WebAppEF.Controllers
 
         public AutoresController(ApplicationDbContext context)
         {
+            //aqui creo el contexto para conexion a base de datos
             _context = context;
         }
 
